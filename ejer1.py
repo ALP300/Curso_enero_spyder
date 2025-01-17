@@ -35,4 +35,14 @@ print(columna)
 df['Calificaciones']= df.Calificaciones.astype(int)
 print(df.describe())
 
+#ESTADÍSTICAS INDIVIDUALES
+print("Promedio:", df['Calificaciones'].mean())
+
+
+
+
+
+
+
+
 
